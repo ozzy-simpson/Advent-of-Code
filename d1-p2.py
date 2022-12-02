@@ -1,5 +1,5 @@
 # open input file
-input = open('day-1-input.txt', 'r')
+input = open('d1-input.txt', 'r')
 lines = input.readlines()
 
 # initialize variables
