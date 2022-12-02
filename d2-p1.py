@@ -1,5 +1,5 @@
 # open input file
-input = open('day-2-input.txt', 'r')
+input = open('2-input.txt', 'r')
 lines = input.readlines()
 
 score = 0
