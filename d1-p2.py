@@ -16,6 +16,6 @@ for line in lines:
     # add current line to current amount
     current += int(line)
     
-# print results
+# sort results
 elves.sort(reverse=True)
 print("Top 3 elves are carrying", sum(elves[0:3]),"total calories")
