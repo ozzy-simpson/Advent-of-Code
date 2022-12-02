@@ -11,17 +11,17 @@ for line in lines:
     # determine move
     if moves[1] == 'X':
         # need to lose
-        move_to_play = chr((ord(moves[0]) - ord('A') + 2) % 3 + ord('X'))
+        move_to_play = (ord(moves[0]) - ord('A') + 2) % 3
     elif moves[1] == 'Y':
         # need to tie, play same move
-        move_to_play = chr(ord(moves[0]) - ord('A') + ord('X'))
+        move_to_play = ord(moves[0]) - ord('A')
         score += 3
     elif moves[1] == 'Z':
         # need to win
-        move_to_play = chr((ord(moves[0]) - ord('A') + 1) % 3 + ord('X'))
+        move_to_play = (ord(moves[0]) - ord('A') + 1) % 3
         score += 6
         
     # add score of move
-    score += ord(move_to_play) - ord('X') + 1
+    score += move_to_play + 1
 
 print("Score:", score)
