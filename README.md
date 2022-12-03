@@ -10,3 +10,6 @@ This repo includes my answers for the [Advent of Code 2022](https://adventofcode
 2. Day 2 - ⭐️⭐️
     - [Part 1](d2-p1.py)
     - [Part 2](d2-p2.py)
+3. Day 3 - ⭐️⭐️
+    - [Part 1](d3-p1.py)
+    - [Part 2](d3-p2.py)
