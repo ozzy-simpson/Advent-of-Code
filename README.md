@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-This repo includes my answers for the [Advent of Code 2022](https://adventofcode.com/).
+This repo includes my answers for the [Advent of Code 2022](https://adventofcode.com/). Answers will only be posted after the leaderboard is full for that day :)
 
 ## Answers by day
 
