@@ -1,5 +1,5 @@
 # open input file
-input = open('d2-input.txt', 'r')
+input = open('input.txt', 'r')
 lines = input.readlines()
 
 score = 0
