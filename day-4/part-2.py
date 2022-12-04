@@ -1,7 +1,7 @@
 import re
 
 # open input file
-input = open('d4-input.txt', 'r')
+input = open('input.txt', 'r')
 lines = input.readlines()
 
 # initialize variables

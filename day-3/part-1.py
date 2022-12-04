@@ -1,5 +1,5 @@
 # open input file
-input = open('d3-input.txt', 'r')
+input = open('input.txt', 'r')
 lines = input.readlines()
 
 # initialize variables
