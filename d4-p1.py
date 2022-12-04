@@ -12,12 +12,8 @@ for line in lines:
     assignment = [eval(i) for i in assignment] # convert to int
     
     # create a list of the ranges
-    part1 = list(range(assignment[0], assignment[1]+1))
-    part2 = list(range(assignment[2], assignment[3]+1))
-
-    # convert to set
-    part1 = set(part1)
-    part2 = set(part2)
+    part1 = set(range(assignment[0], assignment[1]+1))
+    part2 = set(range(assignment[2], assignment[3]+1))
 
     # if either part is a subset of the other, then the ranges overlap and we increase count
     if part1.issubset(part2) or part2.issubset(part1):
