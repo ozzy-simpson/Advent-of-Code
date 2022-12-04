@@ -13,7 +13,7 @@ for line in lines:
     assignment = re.split(',|-', line.strip()) # split on commas and dashes
     assignment = [eval(i) for i in assignment] # convert to int
     
-    # create a list of the ranges
+    # create a set of the ranges
     part1 = set(range(assignment[0], assignment[1]+1))
     part2 = set(range(assignment[2], assignment[3]+1))
 
