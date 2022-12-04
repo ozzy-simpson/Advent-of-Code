@@ -1,5 +1,8 @@
+import os
+import sys
+
 # open input file
-input = open('input.txt', 'r')
+input = open(os.path.join(sys.path[0], "input.txt"), 'r')
 lines = input.readlines()
 
 score = 0
