@@ -5,17 +5,17 @@ import sys
 input = open(os.path.join(sys.path[0], "input.txt"), 'r')
 lines = input.readlines()
 
-# initialize variables
-stacks = []
-stacks.append(['B', 'L', 'D', 'T', 'W', 'C', 'F', 'M'])
-stacks.append(['N', 'B', 'L'])
-stacks.append(['J', 'C', 'H', 'T', 'L', 'V'])
-stacks.append(['S', 'P', 'J', 'W'])
-stacks.append(['Z', 'S', 'C', 'F', 'T', 'L', 'R'])
-stacks.append(['W', 'D', 'G', 'B', 'H', 'N', 'Z'])
-stacks.append(['F', 'M', 'S', 'P', 'V', 'G', 'C', 'N'])
-stacks.append(['W', 'Q', 'R', 'J', 'F', 'V', 'C', 'Z'])
-stacks.append(['R', 'P', 'M', 'L', 'H'])
+# initialize stacks
+stacks = [ [] for _ in range(len(lines[0])//4) ]
+
+for line in lines:
+    # stop after stacks are initialized
+    if '[' not in line:
+        break
+    
+    for i in range(len(line)//4):
+        if line[i*4+1] != ' ':
+            stacks[i].insert(0, line[i*4+1])
 
 # for each line in the input
 for line in lines:
