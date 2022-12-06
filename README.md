@@ -19,3 +19,6 @@ This repo includes my answers for the [Advent of Code 2022](https://adventofcode
 5. Day 5 - ⭐️⭐️
     - [Part 2](day-5/part-2.py)
     - [Part 1](day-5/part-1.py)
+6. Day 6 - ⭐️⭐️
+    - [Part 1](day-6/part-1.py)
+    - [Part 2](day-6/part-2.py)
