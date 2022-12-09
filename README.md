@@ -28,3 +28,6 @@ This repo includes my answers for the [Advent of Code 2022](https://adventofcode
 8. Day 8 - ⭐️⭐️
     - [Part 1](day-8/part-1.py)
     - [Part 2](day-8/part-2.py)
+9. Day 9 - ⭐️⭐️
+    - [Part 1](day-9/part-1.py)
+    - [Part 2](day-9/part-2.py)
