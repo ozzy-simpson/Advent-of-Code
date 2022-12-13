@@ -40,3 +40,6 @@ This repo includes my answers for the [Advent of Code 2022](https://adventofcode
 12. Day 12 - ⭐️⭐️
     - [Part 1](day-12/part-1.py)
     - [Part 2](day-12/part-2.py)
+13. Day 13 - ⭐️⭐️
+    - [Part 1](day-13/part-1.py)
+    - [Part 2](day-13/part-2.py)
