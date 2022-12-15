@@ -43,3 +43,5 @@ This repo includes my answers for the [Advent of Code 2022](https://adventofcode
 13. Day 13 - ⭐️⭐️
     - [Part 1](day-13/part-1.py)
     - [Part 2](day-13/part-2.py)
+14. Day 14 - ⭐️
+    - [Part 1](day-14/part-1.py)
