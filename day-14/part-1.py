@@ -67,7 +67,6 @@ def dropSand():
     atRest = False
     pos = sand
     while not atRest:
-        print(pos, dimensions)
         if pos[0] < 0 or pos[0] >= dimensions[0] or pos[1] + 1 >= dimensions[1]:
             end = True
             atRest = True
