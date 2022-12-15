@@ -1,6 +1,5 @@
 import os
 import sys
-import numpy as np
 
 # open input file
 input = open(os.path.join(sys.path[0], "input.txt"), 'r')
