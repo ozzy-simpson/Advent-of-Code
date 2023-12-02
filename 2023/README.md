@@ -7,3 +7,6 @@ This folder includes my answers for the [Advent of Code 2023](https://adventofco
 1. Day 1 - ⭐️⭐️
     - [Part 1](day-01/part-1.py)
     - [Part 2](day-01/part-2.py)
+2. Day 2 - ⭐️⭐️
+    - [Part 1](day-02/part-1.py)
+    - [Part 2](day-02/part-2.py)
