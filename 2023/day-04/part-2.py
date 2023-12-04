@@ -10,7 +10,6 @@ lines = [line.replace('\n', '') for line in lines] # remove newlines
 # initialize
 sum = 0 # sum of points
 multiples = [1] * len(lines) # stores how many of each card we have
-winnings = [0] * len(lines) # stores how many matches each card has
 
 # Parse
 for i, card in enumerate(lines):
@@ -23,10 +22,7 @@ for i, card in enumerate(lines):
     nums = card.split(' | ')[1].split(' ')
     nums = [int(re.sub('[^0-9]', '', num)) for num in nums if num != '']
     for num in nums:
-        if num in winningNumbers:
-            matches += 1
-    
-    winnings[i] = matches
+        matches += 1 if num in winningNumbers else 0
 
     # starting at index i, add 1 to multiples for next matches
     j = i + 1
