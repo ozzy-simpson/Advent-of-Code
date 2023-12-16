@@ -16,8 +16,13 @@ This folder includes my answers for the [Advent of Code 2023](https://adventofco
 4. Day 4 - ⭐️⭐️
     - [Part 1](day-04/part-1.py)
     - [Part 2](day-04/part-2.py)
+5. Day 5 - Not attempted
 6. Day 6 - ⭐️⭐️
     - [Part 1](day-06/part-1.py)
     - [Part 2](day-06/part-2.py)
 7. Day 7 - ⭐️
     - [Part 1](day-07/part-1.py)
+    - Part 2 not attempted
+8. Day 8 - ⭐️⭐️
+    - [Part 1](day-08/part-1.py)
+    - [Part 2](day-08/part-2.py)
