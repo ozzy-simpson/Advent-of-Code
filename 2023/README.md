@@ -29,3 +29,6 @@ This folder includes my answers for the [Advent of Code 2023](https://adventofco
 9. Day 9 - ⭐️⭐️
     - [Part 1](day-09/part-1.py)
     - [Part 2](day-09/part-2.py)
+10. Day 10 - ⭐️
+    - [Part 1](day-10/part-1.py)
+    - Part 2 not attempted
