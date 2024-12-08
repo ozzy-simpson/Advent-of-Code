@@ -25,3 +25,5 @@ This folder includes my answers for the [Advent of Code 2024](https://adventofco
 7. Day 7 - ⭐️⭐️
     - [Part 1](day-07/part-1.py)
     - [Part 2](day-07/part-2.py)
+8. Day 8 - ⭐️
+    - [Part 1](day-08/part-1.py)
