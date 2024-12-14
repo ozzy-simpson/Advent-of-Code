@@ -29,3 +29,6 @@ This folder includes my answers for the [Advent of Code 2024](https://adventofco
     - [Part 1](day-08/part-1.py)
 9. Day 9 - ⭐️
     - [Part 1](day-09/part-1.py) - slow, but works
+10. Day 10 - ⭐️⭐️
+    - [Part 1](day-10/part-1.py)
+    - [Part 2](day-10/part-2.py)
