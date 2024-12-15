@@ -32,3 +32,6 @@ This folder includes my answers for the [Advent of Code 2024](https://adventofco
 10. Day 10 - ⭐️⭐️
     - [Part 1](day-10/part-1.py)
     - [Part 2](day-10/part-2.py)
+11. Day 11 - ⭐️⭐️
+    - [Part 1](day-11/part-1.py)
+    - [Part 2](day-11/part-2.py)
